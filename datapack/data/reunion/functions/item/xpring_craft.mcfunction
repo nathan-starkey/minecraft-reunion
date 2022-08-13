@@ -1,1 +1,1 @@
-summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1,tag:{StoredXp:0,CustomModelData:1000001,display:{Name:'{"text":"Ring of XP","color":"green","italic":false}'}}}}
+summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:carrot_on_a_stick",Count:1,tag:{StoredXp:0,CustomModelData:1000001,Unbreakable:1b,display:{Name:'{"text":"Ring of XP","color":"green","italic":false}'}}}}
