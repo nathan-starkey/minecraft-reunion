@@ -1,6 +1,6 @@
 {
   "parent": "item/generated",
   "textures": {
-    "layer0": "item/ring_xp_0"
+    "layer0": "item/xpring_0"
   }
 }

@@ -1,3 +1,2 @@
-# Item Use: Ring XP
-execute as @a[scores={r_use_0=1..},nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:1000001}}}] at @s run function reunion:item_use/ring_xp
-scoreboard players reset @a r_use_0
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:1000001}}}] at @s if score @s r_use_item0 matches 1.. run function reunion:item/xpring_store
+execute as @a[nbt={SelectedItem:{id:"minecraft:carrot_on_a_stick",tag:{CustomModelData:1000002}}}] at @s if score @s r_use_item0 matches 1.. run function reunion:item/xpring_restore

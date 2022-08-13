@@ -1,0 +1,42 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "storage",
+      "source": "reunion:xpring"
+    },
+    "ops": [
+      {
+        "source": "StoredXp",
+        "target": "StoredXp",
+        "op": "replace"
+      },
+      {
+        "source": "CustomModelData",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Empty",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "entity": "this",
+    "replace": true
+  },
+  {
+    "function": "set_name",
+    "name": {
+      "text": "Ring of XP",
+      "color": "green",
+      "italic": false
+    },
+    "entity": "this"
+  }
+]
