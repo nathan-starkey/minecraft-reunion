@@ -1,0 +1,2 @@
+tellraw @s [{"text":"Welcome ","color":"yellow"},{"selector":"@s"},{"text":"!"}]
+# tellraw @s [{"text":"Click here for info on custom recipes","color":"gray","clickEvent":{"action":"run_command","value":"/function reunion:help"}}]

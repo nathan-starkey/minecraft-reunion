@@ -1,4 +1,4 @@
-kill @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gold_nugget",Count:8b}}]
+kill @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:gold_nugget",Count:4b}}]
 kill @e[type=item,limit=1,distance=..0.5,nbt={Item:{id:"minecraft:warped_fungus",Count:1b}}]
 kill @s
 function reunion:item/gravpearl_craft
