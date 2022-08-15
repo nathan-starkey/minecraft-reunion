@@ -1,4 +1,4 @@
-scoreboard players set @s r_use_item0 0
+scoreboard players set @s r_carrotstick 0
 execute store result score in util run data get entity @s SelectedItem.tag.StoredXp
 function util:xp_add
 data modify storage reunion:xpring CustomModelData set value 1000001

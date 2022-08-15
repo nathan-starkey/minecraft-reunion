@@ -7,4 +7,3 @@ function reunion:item/xpring_craft
 playsound minecraft:block.enchantment_table.use player @a
 particle minecraft:soul_fire_flame ~ ~0.9 ~ 0.2 0.2 0.2 0 20 force
 # <<
-say CRAFTED

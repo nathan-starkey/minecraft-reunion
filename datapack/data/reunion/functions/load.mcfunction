@@ -1,5 +1,5 @@
 # Player item detection vars >>
-scoreboard objectives add r_use_item0 minecraft.used:minecraft.carrot_on_a_stick
+scoreboard objectives add r_carrotstick minecraft.used:minecraft.carrot_on_a_stick
 # <<
 
 # Event detection setup >>

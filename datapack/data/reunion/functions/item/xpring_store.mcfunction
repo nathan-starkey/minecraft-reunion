@@ -1,4 +1,4 @@
-scoreboard players set @s r_use_item0 0
+scoreboard players set @s r_carrotstick 0
 function util:xp_get
 execute store result storage reunion:xpring StoredXp int 1 run scoreboard players get out util
 data modify storage reunion:xpring CustomModelData set value 1000002
