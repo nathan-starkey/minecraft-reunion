@@ -1,0 +1,14 @@
+{
+  "parent": "builtin/entity",
+  "gui_light": "front",
+  "textures": {
+    "particle": "block/oak_planks"
+  },
+  "display": {
+    "head": {
+      "rotation": [ 0, 180, 0 ],
+      "translation": [ 0, 3, 0],
+      "scale":[ 1.5, 1.5, 1.5 ]
+    }
+  }
+}
