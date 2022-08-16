@@ -1,0 +1,2 @@
+tellraw @s [{"text":"Welcome ","color":"yellow"},{"selector":"@s"},{"text":"!"}]
+# tellraw @s [{"text":"Datapack guide ","color":"gray"},{"text":"[click here]","clickEvent":{"action":"run_command","value":"/function reunion:help/guide0"}}]
