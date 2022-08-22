@@ -1,0 +1,5 @@
+execute if block ~-1 ~-1 ~ spruce_trapdoor[facing=west,open=true] if block ~1 ~-1 ~ spruce_trapdoor[facing=east,open=true] if block ~ ~-1 ~1 tripwire_hook[facing=south,attached=false] run tag @s add rKiln
+execute if block ~-1 ~-1 ~ spruce_trapdoor[facing=west,open=true] if block ~1 ~-1 ~ spruce_trapdoor[facing=east,open=true] if block ~ ~-1 ~-1 tripwire_hook[facing=north,attached=false] run tag @s add rKiln
+execute if block ~ ~-1 ~-1 spruce_trapdoor[facing=north,open=true] if block ~ ~-1 ~1 spruce_trapdoor[facing=south,open=true] if block ~1 ~-1 ~ tripwire_hook[facing=east,attached=false] run tag @s add rKiln
+execute if block ~ ~-1 ~-1 spruce_trapdoor[facing=north,open=true] if block ~ ~-1 ~1 spruce_trapdoor[facing=south,open=true] if block ~-1 ~-1 ~ tripwire_hook[facing=west,attached=false] run tag @s add rKiln
+execute as @e[tag=rKiln] at @s run function reunion:bench/kiln_tick

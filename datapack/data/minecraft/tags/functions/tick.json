@@ -1,5 +1,9 @@
 {
   "values": [
-    "reunion:tick"
+    "reunion:tick",
+    "reunion:bench/forge",
+    "reunion:bench/kiln",
+    "reunion:bench/pearlscrubber",
+    "reunion:bench/sorcerersshrine"
   ]
 }

@@ -1,0 +1,2 @@
+tag @e[tag=rSorcerersshrine] remove rSorcerersshrine
+execute as @e[type=glow_item_frame,nbt={Facing:1b,Item:{id:"minecraft:enchanted_book"}}] at @s if block ~ ~-1 ~ crying_obsidian if entity @e[type=item,distance=..0.5] if block ~ ~-2 ~ diamond_block run function reunion:bench/sorcerersshrine_orient

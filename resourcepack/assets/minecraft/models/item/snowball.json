@@ -4,6 +4,10 @@
     "layer0": "item/snowball"
   },
   "overrides": [
-    {"predicate": {"custom_model_data": 1000004}, "model": "item/gravpearl"}
+    {"predicate": {"custom_model_data": 3950004}, "model": "item/gravitypearl"},
+    {"predicate": {"custom_model_data": 3950005}, "model": "item/featherburst"},
+    {"predicate": {"custom_model_data": 3950006}, "model": "item/glowball"},
+    {"predicate": {"custom_model_data": 3950007}, "model": "item/firebolt"},
+    {"predicate": {"custom_model_data": 3950008}, "model": "item/impactgrenade"}
   ]
 }

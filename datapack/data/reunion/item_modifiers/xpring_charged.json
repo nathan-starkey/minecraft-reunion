@@ -1,0 +1,60 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "storage",
+      "source": "reunion:item"
+    },
+    "ops": [
+      {
+        "source": "rData.xp",
+        "target": "rData.xp",
+        "op": "replace"
+      },
+      {
+        "source": "CustomModelData",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      [
+        {
+          "score": {
+            "name": "pointsK",
+            "objective": "rTemp"
+          },
+          "italic": false,
+          "color": "white"
+        },
+        {
+          "text": "."
+        },
+        {
+          "score": {
+            "name": "pointsC",
+            "objective": "rTemp"
+          }
+        },
+        {
+          "text": "k points"
+        }
+      ]
+    ],
+    "entity": "this",
+    "replace": true
+  },
+  {
+    "function": "set_name",
+    "name": [
+      {
+        "text": "Charged Ring of Experience",
+        "italic": false,
+        "color": "yellow"
+      }
+    ]
+  }
+]

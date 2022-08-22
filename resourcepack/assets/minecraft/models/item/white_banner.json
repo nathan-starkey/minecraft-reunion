@@ -1,6 +1,6 @@
 {
   "parent": "minecraft:item/template_banner",
   "overrides": [
-    {"predicate": {"custom_model_data": 1000003}, "model": "item/bannersail"}
+    {"predicate": {"custom_model_data": 3950003}, "model": "item/bannersail"}
   ]
 }

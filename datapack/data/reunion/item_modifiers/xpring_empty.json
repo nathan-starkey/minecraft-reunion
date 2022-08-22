@@ -1,0 +1,40 @@
+[
+  {
+    "function": "minecraft:copy_nbt",
+    "source": {
+      "type": "storage",
+      "source": "reunion:item"
+    },
+    "ops": [
+      {
+        "source": "rData.xp",
+        "target": "rData.xp",
+        "op": "replace"
+      },
+      {
+        "source": "CustomModelData",
+        "target": "CustomModelData",
+        "op": "replace"
+      }
+    ]
+  },
+  {
+    "function": "minecraft:set_lore",
+    "lore": [
+      {
+        "text": "Empty",
+        "color": "gray",
+        "italic": false
+      }
+    ],
+    "replace": true
+  },
+  {
+    "function": "set_name",
+    "name": {
+      "text": "Ring of Experience",
+      "color": "green",
+      "italic": false
+    }
+  }
+]

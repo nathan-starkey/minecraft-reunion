@@ -1,0 +1,2 @@
+tag @e[tag=rForge] remove rForge
+execute as @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:iron_ingot"}}] at @s if block ~ ~-1 ~ chiseled_nether_bricks if entity @e[type=item,distance=..0.5] run function reunion:bench/forge_orient

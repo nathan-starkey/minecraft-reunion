@@ -1,1 +1,0 @@
-summon minecraft:item ~ ~ ~ {Item:{id:"minecraft:snowball",Count:4,tag:{CustomModelData:1000004,display:{Name:'{"text":"Gravity Pearl","color":"light_purple","italic":false}',Lore:['{"text":"Creates a gravity explosion on impact","color":"gray","italic":false}']}}}}

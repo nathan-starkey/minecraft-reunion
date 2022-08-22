@@ -1,0 +1,2 @@
+tag @e[tag=rKiln] remove rKiln
+execute as @e[type=item_frame,nbt={Facing:1b,Item:{id:"minecraft:charcoal"}}] at @s if block ~ ~-1 ~ bricks if block ~ ~-2 ~ campfire[lit=true] if entity @e[type=item,distance=..0.5] run function reunion:bench/kiln_orient
